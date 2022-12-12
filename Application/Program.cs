@@ -4,7 +4,7 @@ namespace Application
 {
     public class Car
     {
-        public string Name { get;}
+        public string Name { get; }
         public string Brand { get; }
         public float TankVolume { get; }
         public int NumberOfDoors { get; }

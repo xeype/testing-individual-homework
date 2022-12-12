@@ -17,7 +17,8 @@ namespace Application.Test
             string bodyType)
         {
             var myCar = new Car(name, brand, tankVolume, numberOfDoors, bodyType);
-            Assert.AreEqual(myCar.Name[0].ToString().ToUpper(), myCar.Name[0].ToString(), "First char of Name in not upper");
+            Assert.AreEqual(myCar.Name[0].ToString().ToUpper(), myCar.Name[0].ToString(),
+                "First char of Name in not upper");
         }
 
         [TestCaseSource(nameof(_carsCases))]
@@ -25,7 +26,8 @@ namespace Application.Test
             string bodyType)
         {
             var myCar = new Car(name, brand, tankVolume, numberOfDoors, bodyType);
-            Assert.AreEqual(myCar.Brand[0].ToString().ToUpper(), myCar.Brand[0].ToString(), "First char of Brand in not upper");
+            Assert.AreEqual(myCar.Brand[0].ToString().ToUpper(), myCar.Brand[0].ToString(),
+                "First char of Brand in not upper");
         }
 
         [TestCaseSource(nameof(_carsCases))]
