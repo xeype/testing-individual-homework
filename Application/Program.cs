@@ -24,7 +24,7 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car("1", "2", 2, 3, "4");
+            Car myCar = new Car("TestName", "TestBrand", 2, 3, "TestBody");
             Console.WriteLine(myCar.Name);
         }
     }
